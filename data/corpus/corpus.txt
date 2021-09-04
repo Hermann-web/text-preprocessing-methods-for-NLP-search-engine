@@ -1,0 +1,100 @@
+" Message d'erreur : \"Le fournisseur ARIBA n'existe pas\" ARIBA Vérifier sur ARIBA que le fournisseur de la PR est ARIBA (A MODIFIER). donnez un titre à la solution ... donnez un titre à la solution ... donnez un titre à la solution ... tttttttttttttttttttttttttttakobaup\ufeffIMG_20170924_113842.jpg 199.55 KB\ufeffjjjjjjjjj\ufeff\ufeff\ufeff\ufeff donnez un titre à la solution ... donnez un titre à la solution ... Message d'erreur : \"Commande d’article non autorisé (OTP __)\" SAP Vérification de l'eOTP via SAP avec la transaction CJ03 pour confirmer qu'il est cloturé.
+ \ufeffIMG_20170925_074230.jpg 194.52 KB\ufeff\ufeffIMG_20170924_113831.jpg 42.82 KB\ufeff,nlllllllll Message d'erreur : \"Statut utilisateur FERM actif (OTP ___)\" SAP Vérification de l'eOTP via SAP avec la transaction CJ03 pour confirmer qu'il est cloturé.
+ donnez un titre à la solution ... Message d'erreur : \"Statut système TCLO actif (ORD ___)\" SAP Vérification de l'objet d'imputation s'il a été cloturé.
+ Message d'erreur \"___ Cost center change could not be effected\" SAP Vérifier sur ARIBA le changement d’imputation et les modifications effectuées.
+ donnez un titre à la solution ... Messaeg d'erreur \"___ OTP change could not be effected\" SAP Vérifier sur ARIBA le changement d’imputation et les modifications effectuées.
+ Messaeg d'erreur \"Entrez Centre de coûts\" SAP Vérifier sur ARIBA le changement d’imputation et les modifications effectuées.
+ Message d'erreur \"Indiquez une seule imputation non statistique\" SAP Vérifier sur ARIBA les détails des articles.
+ Message d'erreur \"Imputations CO ont des centres de profit différents\" SAP Vérifier sur ARIBA les détails des articles.il a essayé d’affecter plusieurs imputations sur un même... Message d'erreur \"Poste ___ Ordre ___ dépassement de budget\" SAP Vérifier sur ARIBA les détails des articles pour déterminer si cela provient 
+d’une imputation d’imm... Message d'erreur \"Entrez une quantité de commande\" SAP Verifier le(s) poste(s) concerné(s).
+ Message d'erreur \"Indiquez la quantité\" SAP Verifier le(s) poste(s) concerné(s).
+ Message d'erreur \"Le prix net doit être supérieur à 0\" SAP Verifier le(s) poste(s) concerné(s).
+ Message d'erreur \"Les conditions de paiement ___ ne sont pas créées\" SAP Vérifier dans SAP les différentes conditions de paiement autorisées et leurs ID correspondants.
+ Message d'erreur \"Le centre de profit __ n'existe pas ds le périmètre de comptabilis. __
+
+\" SAP Vérifier l’imputation du poste dans SAP
+ Message d'erreur \"Utilisateur ___ traite déjà Cde achat ___\" SAP  Envoyer un mail au dmeandeur en expliquant que la PR___ est tombée en erreur parce qu’au moment de ... Message d'erreur \"validation ___ : le compte ___ est interdit sur le centre ___\" SAP Envoyer un mail au demandeur en lui expliquant que la PR___ est tombée en erreur parce que vous avez... Message d'erreur \"Validation ___ : le compte ___ doit être imputé sur le centre de coût\" SAP Envoyer un mail eu demandeur en lui expliquant que la PR___ est tombée en erreur parce que vous avez... Message d'erreur \"Le fournisseur MDM___ n’existe pas\" SAP Envoyer un mail à l'acheteur et au demandeur en expliquant que la PR___ est tombée en erreur parce q... Message d'erreur \"Le fournisseur MDM___ est bloqué pour l’organisation achats ___\" SAP Envoyer un mail à l'acheteur et au demandeur en expliquant que la PR___ est tombée en erreur parce q... Message d'erreur \"Date de livraison située dans le passé\" SAP Vérifier la date indiquée dans la PR sur ARIBA pour définir s’il s’agit d’une cause utilisateur (dat... Message d'erreur \"La qté livrée est différente de la qté facturée ; fonction impossible\" SAP écrire au GDA pour qu’il contacte le contrôle de gestion pour ajuster la facture au montant réceptio... Message d'erreur \"Groupe d’acheteurs NOT non défini (Vérifiez vos données)\" SAP |Si PR générique
+Vérifier que le mail de l’acheteur soit renseigné dans le champ « Acheteur hors cat... Message d'erreur \"Le founisseur XXXX-40 n’existe pas\" SAP Demandez à l’équipe MCO ou au Support N1 d’informer la cellule MDM et la DSI afin de mettre à jour l... Message d'erreur \"Le cpte général ___ ne peut être utilisé (corrigez)\" SAP Vérification :  
+\uf0e0 Trouvez le groupe article utilisant le compte (cf N° « Compte du grand livre » da... Message d'erreur \"Erreur de conversion des quantités lors du calcul du prix net\" SAP Vérifiez l’intégration de la réception dans Ariba et SAP
+Correction : 
+| La réception doit d’abord ê... Message d'erreur \"Qté (+ tolérance livr.excédentaire) inférieur à quantité livrée de ___\" SAP Vérifiez l’intégration de la dé-réception dans Ariba et SAP
+Correction : La dé-réception doit d’abor... Message d'erreur \"Fonctions oblig. Suivantes non déf ds gestion des partenaires : CD\" SAP Vérifiez que le code MDM ait un code ZOLD_SUP SHE correspondant dans le fichier MDM
+ (RCE > Document... Message d'erreur \"Article ___ non géré dans la division ___\" SAP Le GDA doit contacter sap-achats-support.fr.she@safrangroup.com pour la création
+ de l’article dans ... Message d'erreur \"Renseigner correctement le demandeur\" SAP Vérifier dans SAP que le matricule du GDA soit bien renseignée.
+Faites un ticket au support eH@ Admi... Message d'erreur \" L’unité de quantité par /PC n’est pas définie dans la langue ES \" SAP Contacter l’acheteur(se) afin qu’il/elle modifie la langue dans SAP. Il faudra modifier MDM via Fort... La quantité est supérieure à la quantité disponible de ___\" SAP Vérifier sur ARIBA que le fournisseur de la PR est ARIBA (A MODIFIER)
+ Vérification de l'eOTP via SAP avec la transaction CJ03 pour confirmer qu'il est cloturé.
+ Vérification de l'eOTP via SAP avec la transaction CJ03 pour confirmer qu'il est cloturé.
+ Vérification de l'objet d'imputation s'il a été cloturé.
+ Vérifier sur ARIBA le changement d’imputation et les modifications effectuées.
+ Vérifier sur ARIBA le changement d’imputation et les modifications effectuées.
+ Vérifier sur ARIBA le changement d’imputation et les modifications effectuées.
+ Vérifier sur ARIBA les détails des articles.
+ Vérifier sur ARIBA les détails des articles.il a essayé d’affecter plusieurs imputations sur un même... Vérifier sur ARIBA les détails des articles pour déterminer si cela provient 
+d’une imputation d’imm... Verifier le(s) poste(s) concerné(s).
+ Verifier le(s) poste(s) concerné(s).
+ Verifier le(s) poste(s) concerné(s).
+ Vérifier dans SAP les différentes conditions de paiement autorisées et leurs ID correspondants.
+ Vérifier l’imputation du poste dans SAP
+  Envoyer un mail au dmeandeur en expliquant que la PR___ est tombée en erreur parce qu’au moment de ... Envoyer un mail au demandeur en lui expliquant que la PR___ est tombée en erreur parce que vous avez... Envoyer un mail eu demandeur en lui expliquant que la PR___ est tombée en erreur parce que vous avez... Envoyer un mail à l'acheteur et au demandeur en expliquant que la PR___ est tombée en erreur parce q... Envoyer un mail à l'acheteur et au demandeur en expliquant que la PR___ est tombée en erreur parce q... Vérifier la date indiquée dans la PR sur ARIBA pour définir s’il s’agit d’une cause utilisateur (dat... écrire au GDA pour qu’il contacte le contrôle de gestion pour ajuster la facture au montant réceptio... |Si PR générique
+Vérifier que le mail de l’acheteur soit renseigné dans le champ « Acheteur hors cat... Demandez à l’équipe MCO ou au Support N1 d’informer la cellule MDM et la DSI afin de mettre à jour l... Vérification :  
+\uf0e0 Trouvez le groupe article utilisant le compte (cf N° « Compte du grand livre » da... Vérifiez l’intégration de la réception dans Ariba et SAP
+Correction : 
+| La réception doit d’abord ê... Vérifiez l’intégration de la dé-réception dans Ariba et SAP
+Correction : La dé-réception doit d’abor... Vérifiez que le code MDM ait un code ZOLD_SUP SHE correspondant dans le fichier MDM
+ (RCE > Document... Le GDA doit contacter sap-achats-support.fr.she@safrangroup.com pour la création
+ de l’article dans ... Vérifier dans SAP que le matricule du GDA soit bien renseignée.
+Faites un ticket au support eH@ Admi... Contacter l’acheteur(se) afin qu’il/elle modifie la langue dans SAP. Il faudra modifier MDM via Fort... > Vérifiez l’historique de commande du poste concerné dans SAP (ME23N)
+> Le GDA doit réintégrer les ... > Vérifiez l’historique de commande du poste concerné dans SAP (ME23N) 
+> Le GDA doit réintégrer les... Vérifier la synchronisation des quantités réceptionnées entre Ariba et SAP
+Correction : 
+> Faites un... Vérifier la synchronisation des quantités réceptionnées entre Ariba et SAP
+Correction : 
+> Le GDA do... Vérifier la synchronisation des quantités réceptionnées entre Ariba et SAP
+Correction : 
+> Le GDA do... Contactez le gestionnaire immo (SFS Compta Immos pour SED) pour demander la réouverture de l’immobil... Correction :  Demander aux correspondants douane (voir circuit d’approbation du reçu) de faire la ZM... Vérification : Vérifiez  que les RC tombés en échec fonctionnel se sont bien intégrés dans SAP à la ... Vérifiez si la réception s’intègre à la réouverture de la date comptable Vérification : Vérifier que les RC tombés en échec fonctionnel se sont bien intégrés dans SAP à la r... Correction : 
+> Faites une demande auprès de votre garant SAP pour intégrer manuellement la dé-récep... Vérifier la synchronisation des postes entre Ariba et SAP.
+Correction : Le GDA doit régler en priori... Vérifier l’état actuel de l’eOTP dans SAP (CJ03)
+
+Correction : Le GDA doit demander au Contrôleur de... Vérifiez l’état actuel du centre de coût dans SAP (KS03) et le nom de son responsable
+ 
+Correction :... Vérifiez l’état actuel de l’eOTP dans SAP (CJ03) et le nom de son responsable
+ 
+Correction : Demande... Vérifiez l’état actuel de l’eOTP dans SAP (CJ03) et le nom de son responsable
+
+Correction : Demander... Vérifiez l’état actuel de l’eOTP dans SAP (CJ03) et le nom de son responsable
+ 
+Correction : Demande... Vérifiez l’état actuel de l’immobilisation dans SAP (AS03) et le nom de son responsable
+
+Correction ... : Le recyclage des reçus se fait 50 fois à hauteur de 2 fois par jour, l’intégration du reçu se fera... Correction : Le recyclage des reçus se fait 50 fois à hauteur de 2 fois par jour, l’intégration du r...  Le GDA doit contacter le gestionnaire d’immobilisation afin de solutionner ce message d’erreur 
+* S... Indiquer à l’acheteur d’effectuer les vérifications suivantes :
+• Vérifier lors de la recherche sur ... La commande comporte un champ non accepté : le compte fournisseur a été supprimé.
+Le préparateur de ... Soit le demandeur modifie la PR mais il y aura un relance du circuit d’approbation.
+Soit il faut att... Message d'erreur \"Il existe des factures pour le cas ___ . Création du mouvement impossible.\" SAP > Vérifiez l’historique de commande du poste concerné dans SAP (ME23N) 
+> Le GDA doit réintégrer les... Message d'erreur \" AC Qté entre. facture pas atteint, différence de ___\" SAP Vérifier la synchronisation des quantités réceptionnées entre Ariba et SAP
+Correction : 
+> Faites un... Message d'erreur \" AC Qté entrée march. pas atteint, différence de ___\" SAP Vérifier la synchronisation des quantités réceptionnées entre Ariba et SAP
+Correction : 
+> Le GDA do... Message d'erreur \" AC Qté commandée dépassé(e) de ___\" SAP Vérifier la synchronisation des quantités réceptionnées entre Ariba et SAP
+Correction : 
+> Le GDA do... Message d'erreur \" Ecriture impossible (immob. ___ mise hors service)\" SAP Contactez le gestionnaire immo (SFS Compta Immos pour SED) pour demander la réouverture de l’immobil... Message d'erreur \" La quantité totale EM ___ est différente de celle contrôlée en douan \" SAP Correction :  Demander aux correspondants douane (voir circuit d’approbation du reçu) de faire Message d'erreur \" Date comptable interdite pour saisie de réceptions \" SAP Vérification : Vérifiez  que les RC tombés en échec fonctionnel se sont bien intégrés dans SAP à la ... donnez un titre à la solution ... Message d'erreur \" Enregistrer uniq. ds les périodes ___ et ___ si possible ds dom. Val. ___ \" SAP Vérifiez si la réception s’intègre à la réouverture de la date comptable Message d'erreur \" Période ___ n’est pas ouverte pour type dpte ___ \" SAP Vérification : Vérifier que les RC tombés en échec fonctionnel se sont bien intégrés dans SAP à la r... Message d'erreur \" Le document ne contient aucun poste \" SAP Correction : 
+> Faites une demande auprès de votre garant SAP pour intégrer manuellement la dé-récep... Message d'erreur \"Aucune entrée en stock possible pour la commande ___\" SAP Vérifier la synchronisation des postes entre Ariba et SAP.
+Correction : Le GDA doit régler en priori... Message d'erreur \"Entrée marchandises – commande non autorisé (OTP ___)\" SAP Vérifier l’état actuel de l’eOTP dans SAP (CJ03)
+
+Correction : Le GDA doit demander au Contrôleur de... Message d'erreur \"Le centre ___ est bloqué aux écritures de coûts primaires le ___\" SAP Vérifiez l’état actuel du centre de coût dans SAP (KS03) et le nom de son responsable
+ 
+Correction :... Message d'erreur \"Statut utilisateur ZBHA actif (OTP ___)\" SAP Vérifiez l’état actuel de l’eOTP dans SAP (CJ03) et le nom de son responsable
+ 
+Correction : Demande... Message d'erreur \"Statut système BLOQ actif (OTP ___)\" SAP Vérifiez l’état actuel de l’eOTP dans SAP (CJ03) et le nom de son responsable
+
+Correction : Demander... Message d'erreur \"Statut utilisateur FERM actif (OTP ___)\" SAP Vérifiez l’état actuel de l’eOTP dans SAP (CJ03) et le nom de son responsable
+ 
+Correction : Demande... Message d'erreur \"Ecritures d’immobilisations pour sté ___\" SAP Vérifiez l’état actuel de l’immobilisation dans SAP (AS03) et le nom de son responsable
+
+Correction ... Message d'erreur \"Les données de division de l'article ___  sont bloquées par l'utilisateur ___\" SAP : Le recyclage des reçus se fait 50 fois à hauteur de 2 fois par jour, l’intégration du reçu se fera... Message d'erreur \"Utilisateur YRARIBATCH traite déjà Poste document achat ___\" SAP Correction : Le recyclage des reçus se fait 50 fois à hauteur de 2 fois par jour, l’intégration du r... Message d'erreur \"Tableau 01: La valeur d'acquisition devient négative\" SAP  Le GDA doit contacter le gestionnaire d’immobilisation afin de solutionner ce message d’erreur 
+* S... Message d'erreur \"Fournisseur non présent dans ARIBA mais présent dans SAP\" SAP Indiquer à l’acheteur d’effectuer les vérifications suivantes :
+• Vérifier lors de la recherche sur ... Message d'erreur \"Vendeur a été supprimé(e) (modification de PR)\" SAP La commande comporte un champ non accepté : le compte fournisseur a été supprimé.
+Le préparateur de ... Message d'erreur \"La PR reste au statut « Approuvé(e) » et il n’y a pas de commande\" SAP Soit le demandeur modifie la PR mais il y aura un relance du circuit d’approbation.
+Soit il faut att... ppp -------- UO4-5 Commande | Envoi d'une commande manuelle -------- UO5-4 Réception | Anomalie workflow -------- UO5-1 Réception | Modification(s) de réception(s) -------- UO5-2 Réception | Annulation(s) de réception(s) -------- UO5-3 Réception | Forcer la réception -------- UO3-5 Demande d'achat | Demande de support création DA -------- UO3-6 Demande d'achat | Demande de support modification DA -------- UO3-7 Demande d'achat | Demande de support annulation DA -------- UO4-2 Commande | Demande de support modification commande --------"
+
+?
+
