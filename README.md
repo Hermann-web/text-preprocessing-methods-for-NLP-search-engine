@@ -14,5 +14,4 @@ After these benchmark You cand find an [function named SENTENCE_TO_CORRECT_WORDS
 You can also find my search engine that use preprocessing and semantic similarities [here](https://github.com/Hermann-web/Search-engine-with-python-nlp)
 
 # requirements
-You can find them [here](https://github.com/Hermann-web/text-preprocessing-methods-for-NLP-search-engine/blob/main/requirements.txt)
-In respect of the methods you want to test, you can just install some of them
+You can find them [here](https://github.com/Hermann-web/text-preprocessing-methods-for-NLP-search-engine/blob/main/requirements.txt). In respect of the methods you want to test, you can just install some of them
