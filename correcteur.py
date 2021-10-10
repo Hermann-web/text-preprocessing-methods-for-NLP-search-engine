@@ -3,18 +3,7 @@ from collections import Counter
 
 def words(text): return re.findall(r'\w+', text.lower())
 
-#WORDS = Counter(words( 'manger bouger difference update All edits that are one edit away from `word`. The subset of `words` that appear in the dictionary of WORDS '))
-textdir = 'create_dico\dico.txt'
-textdir = 'create_dico\liste.de.mots.francais.frgut.txt'
-
-try:WORDS = Counter(words(open(textdir,'r',encoding="utf-8").read()))
-except: WORDS = Counter(words(open(textdir,'r').read()))
-
-import unicodedata
-def remove_accents(input_str):
-    nfkd_form = unicodedata.normalize('NFKD', input_str)
-    only_ascii = nfkd_form.encode('ASCII', 'ignore')
-    return only_ascii
+#WORDS = Counter(words(open('big.txt').read()))
 
 WORDS = Counter(words( 'manger bouger'))
 def P(word, N=sum(WORDS.values())): 
@@ -46,11 +35,3 @@ def edits1(word):
 def edits2(word): 
     "All edits that are two edits away from `word`."
     return (e2 for e1 in edits1(word) for e2 in edits1(e1))
-out = 0 
-if __name__ == '__main__':
-    print('des mots raté, d\'une faute ou deux, à corriger')
-    while out!=2:
-        word = input('un mot: ')
-        if word: print(correction(word.lower()))
-        else: out +=1
-    
