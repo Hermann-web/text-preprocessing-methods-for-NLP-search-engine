@@ -50,4 +50,8 @@ for word in sent:
 #ce code marche bien. Il trouve les synonymes en francais*
 
 
+
+#"methode utilisant la librairie synonymes"
+#from synonymes import linternaute
+
 # 

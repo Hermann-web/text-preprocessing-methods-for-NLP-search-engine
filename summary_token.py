@@ -14,6 +14,7 @@ tokenizer = TreebankWordTokenizer()
 from nltk.tokenize import word_tokenize
 #
 tokenizer_nltk_fr = nltk.data.load('tokenizers/punkt/french.pickle')
+tokenizer_nltk_eng = nltk.data.load('tokenizers/punkt/english.pickle')
 # 
 from nltk.wsd import lesk
 from nltk.corpus import wordnet as wn
