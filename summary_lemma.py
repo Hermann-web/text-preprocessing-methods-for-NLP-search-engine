@@ -1,4 +1,4 @@
-
+#https://www.nltk.org/api/nltk.stem.html#module-nltk.stem.regexp: tokenizaton
 
 def my_display(fct_stem,lang):
     #list of tokenized words
@@ -30,22 +30,22 @@ def my_tokenizer(paragraph,toword=True):
         print('no input paragraph or sentence !!!')
         return
     blob_object = TextBlob(paragraph)
+
+    #si c'est une phrase, je casse en liste de mots
+    if toword : return blob_object.words
     
     #si c'est u paragraphe, je casse en liste de phrases
-    if not toword:
-        tokens_p = blob_object.sentences
-        tokens_w = []
-        for sentence in tokens_p:
-            #passer de ce format à un vrai string 
-            sentence = ''.join( [c for c in sentence] )
-            #tokenizer le string en liste de mots 
-            tokens = my_tokenizer(sentence,toword=True)
-            tokens_w.append ( tokens )
-        return blob_object.sentences, tokens_w
+    tokens_p = blob_object.sentences
+    tokens_w = []
+    for sentence in tokens_p:
+        #passer de ce format à un vrai string 
+        sentence = ''.join( [c for c in sentence] )
+        #tokenizer le string en liste de mots 
+        tokens = my_tokenizer(sentence,toword=True)
+        tokens_w.append ( tokens )
+    return blob_object.sentences, tokens_w
+
         
-    #si c'est une phrase, je casse en liste de mots
-    else:
-        return blob_object.words
         
 
 def display_for_sentence_lemmatization(fct_stem,lang,sentence_to_words_tokenizer=my_tokenizer):
@@ -55,8 +55,8 @@ def display_for_sentence_lemmatization(fct_stem,lang,sentence_to_words_tokenizer
     print( '\nsentence:')
     print(sentence)
 
-    W = sentence_to_words_tokenizer(sentence)
-    lemmatized_sentence = " ".join([fct_stem(w) for w in W])
+    words = sentence_to_words_tokenizer(sentence)
+    lemmatized_sentence = " ".join([fct_stem(w) for w in words])
 
 
     print( 'output:')
@@ -145,7 +145,7 @@ def snowball_word_lemmatizer_fr(my_word):
     snow_stemmer = SnowballStemmer(language='french')
     return snow_stemmer.stem(my_word)
 def lemma_snowball_eng():
-    print( '\n\n----------nltk snowball with english for lemmatization --------------')
+    print( '\n\n----------nltk snowball with english for lemmatization+stemming --------------')
     
     my_display(fct_stem=snowball_word_lemmatizer_eng,lang='eng')
     ''' output :::
@@ -167,7 +167,7 @@ def lemma_snowball_eng():
     
     
 def lemma_snowball_fr():
-    print( '\n\n----------nltk snowball with french for lemmatization --------------')
+    print( '\n\n----------nltk snowball with french for lemmatization+stemming --------------')
    
     my_display(fct_stem=snowball_word_lemmatizer_fr,lang='fr')
         
@@ -223,6 +223,34 @@ def lemma_french_stemmer():
 
 
 
+
+#################nltk.stem.PorterStemmer##################
+from nltk.stem import PorterStemmer
+def porter_word_stemmer(my_word):
+    #the stemmer requires a language parameter
+    porter_stemmer = PorterStemmer()
+    return porter_stemmer.stem(my_word)
+
+def lemma_english_porter_stemmer():
+    print( '\n\n----------nltk porter_stemmer with english for stemming --------------')
+    my_display(fct_stem=porter_word_stemmer,lang='en')
+    ''' output :::
+    cared ----> care
+    university ----> univers
+    fairly ----> fairli
+    easily ----> easili
+    singing ----> sing
+    sings ----> sing
+    sung ----> sung
+    singer ----> singer
+    sportingly ----> sportingli
+    cats ----> cat
+    '''
+    display_for_sentence_lemmatization(fct_stem=porter_word_stemmer,lang='en')
+    #> le chien sont tomb
+
+
+
     
 
 ######################REGEX STEMMER
@@ -263,7 +291,7 @@ with open("data\\lemma_dico\\sample.json",'r') as json_file:
     #LISTE = [json.loads(_.replace('}]}"},', '}]}"}')) for _ in json_file.readlines()]
 my_stemmer = lambda word: LISTE[word] if word in LISTE else word
 def lemma_from_json():
-    print( '\n\n----------my_stemmer with french for lemmatization using enumeration--------------')     
+    print( '\n\n----------my_lemmatizer with french for lemmatization using enumeration--------------')     
     my_display(fct_stem=my_stemmer,lang='fr')          
     ''' output :::
     mange ----> manger
@@ -299,6 +327,9 @@ lemma_snowball_fr()      #(stemming)bad
 lemma_french_stemmer()   #(stemming)good 
     ##nltk.stem.RegexpStemmer (customisable)
 lemma_using_regex()      #(stemming)il doit avoir de plus puissant filtre sinon bad 
+    ##nltk.stem.PorterStemmer
+# lemma_french_porter_stemmer() #on sent qu'il est adapté à l'anglais plutôt
+lemma_english_porter_stemmer() #plutôt bon sur l'englais
     ##dico
 lemma_from_json()        #(lemmatizer)very good (in french) !!
 

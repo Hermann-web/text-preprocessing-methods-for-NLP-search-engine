@@ -1,9 +1,7 @@
 #https://www.geeksforgeeks.org/python-tokenize-text-using-textblob/ ::tokenization
-#https://www.nltk.org/api/nltk.stem.html#module-nltk.stem.regexp: tokenizaton
 #https://www.nltk.org/api/nltk.tokenize.html
 
-#
-from nltk.stem import RegexpStemmer
+
 #
 from textblob import TextBlob
 #
@@ -14,8 +12,10 @@ tokenizer = TreebankWordTokenizer()
 from nltk.tokenize import word_tokenize
 #
 tokenizer_nltk_fr = nltk.data.load('tokenizers/punkt/french.pickle')
+# tokenizer_nltk_fr.tokenize(sentence) or nltk.sent_tokenize(sentence, language="french")
 tokenizer_nltk_eng = nltk.data.load('tokenizers/punkt/english.pickle')
-# 
+# tokenizer_nltk_eng.tokenize(sentence) or nltk.sent_tokenize(sentence, language="english")
+
 from nltk.wsd import lesk
 from nltk.corpus import wordnet as wn
 # ['als', 'arb', 'cat', 'cmn', 'dan', 'eng', 'eus', 'fas',
