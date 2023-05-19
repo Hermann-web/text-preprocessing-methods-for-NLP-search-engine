@@ -251,6 +251,34 @@ def lemma_english_porter_stemmer():
 
 
 
+
+#################nltk.stem.WordNetLemmatizer##################
+from nltk.stem import WordNetLemmatizer
+def  word_net_lemma(my_word):
+    #the stemmer requires a language parameter
+    lem = WordNetLemmatizer()
+    return lem.lemmatize(my_word)
+
+def lemma_english_wordnet_lemmatizer():
+    print( '\n\n----------nltk WordNetLemmatizer with english for lemmatization --------------')
+    my_display(fct_stem=word_net_lemma,lang='en')
+    ''' output :::
+    cared ----> care
+    university ----> univers
+    fairly ----> fairli
+    easily ----> easili
+    singing ----> sing
+    sings ----> sing
+    sung ----> sung
+    singer ----> singer
+    sportingly ----> sportingli
+    cats ----> cat
+    '''
+    display_for_sentence_lemmatization(fct_stem=word_net_lemma,lang='en')
+    #> le chien sont tomb
+
+
+
     
 
 ######################REGEX STEMMER
@@ -330,6 +358,8 @@ lemma_using_regex()      #(stemming)il doit avoir de plus puissant filtre sinon 
     ##nltk.stem.PorterStemmer
 # lemma_french_porter_stemmer() #on sent qu'il est adapté à l'anglais plutôt
 lemma_english_porter_stemmer() #plutôt bon sur l'englais
+    ##nltk.stem.WordNetLemmatizer
+lemma_english_wordnet_lemmatizer() #moyen sur l'englais: il rate des "..ed" et consort
     ##dico
 lemma_from_json()        #(lemmatizer)very good (in french) !!
 
